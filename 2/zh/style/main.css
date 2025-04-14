@@ -1,0 +1,229 @@
+body {
+    margin:0;
+	padding:0;
+    background: #000000;
+    font-family:"宋体";
+	font-size: 12px;
+	color: #333333;
+	line-height:150%;}
+a {
+	color: #f5651f;}
+a:hover {
+	color: #ff3399;}
+ul{
+   margin:0;
+   padding:0;}
+ul li{
+  list-style:none;}   	
+.clear{
+  clear:both;}	
+	
+/*=======================header部分样式开始=======================*/
+	
+#banner{
+   margin:0;
+   margin-left:auto;
+   margin-right:auto;
+   width:993px;
+   height:319px;
+   background:url(../images/banner.jpg) no-repeat left top;}
+#mmbanner{
+   padding:80px 0 0 85px;}   	
+#title{
+  float:left;
+     }
+#title a{
+  font-size:16px;
+  font-weight:bold;
+  color:#ffffff;
+  text-decoration:none; } 
+#title a:hover{
+  color:#f5651f;}   
+#url{
+  float:left;}  
+#url a{
+  margin:0 0 0 16px;
+  color:#ffffff;}
+#url a:hover{
+  color:#f5651f;}     
+#desc{
+  clear:left;
+  margin:5px 0 0 20px;
+  color:#ffffff;} 
+#menu{
+   margin-left:auto;
+   margin-right:auto;
+   width:993px;
+   height:166px;
+   background:url(../images/menu.jpg) no-repeat left top; }
+#mmmenu {
+   float:right;
+   width:500px;
+   margin:10px 0 0 0;}
+#mainnav{
+   float:left;}
+#mainnav li{
+    float: left;
+	list-style: none;
+	padding:48px 0 0;}   
+#mainnav li a{
+    padding:48px 12px 0;
+	background-position: center top;
+	background-repeat: no-repeat;
+	color:#e7ebef;
+	text-decoration:none;}
+#mainnav li a:hover{
+    color:#f5651f;
+	background:none;} 
+.navhome { background-image: url(../images/home.gif);}
+.navblog { background-image: url(../images/blog.gif);}
+.navphoto { background-image: url(../images/img.gif);}
+.navmusic { background-image: url(../images/sound.gif);}
+.navvideo { background-image: url(../images/video.gif);}
+.navprofile { background-image: url(../images/profile.gif);}
+.navfriend { background-image: url(../images/jiao.gif);}
+.navres { background-image: url(../images/friend.gif);}
+
+/*=======================header部分样式结束=======================*/
+ 
+ 
+/*=======================主体部分样式=======================*/
+#main{
+    margin:0 auto;
+    width:993px;
+	height:auto;
+	background:url(../images/main_bg.jpg) repeat-y left top;} 
+#content{
+    float:left;
+	width:505px;
+	padding:0 20px 5px 132px;}
+#sidebar{
+    float:right;
+	width:196px;
+	padding-right:132px;}
+	
+/*==================内容部分样式=======================*/	
+.mmcontent{
+    width:495px;
+	float:left;}	
+.content-top{
+    width:100%;
+	padding:5px;
+	border-bottom:#666666 1px solid;}			 	       		
+.diarytitle{
+    width: 100%;
+	color:#821428;
+	font-size:16px;
+	font-weight:bold;
+	padding: 5px;
+	border-bottom: 1px dashed #821428;}	
+.arrow-up {
+	height: 11px;
+	width: 11px;
+	background: url(../images/arrow_up.gif) no-repeat center;
+	cursor: pointer;}	
+.diarycontent{
+    width: 100%;
+	color:#333333;
+	padding:8px 0 15px 0;}
+.diaryabout{    
+	width: 100%;
+	color:#821428;
+	padding: 5px;}
+
+/*=================分类导航部分样式=======================*/	
+#mmsidebar{
+    width:190px;}
+.list{	
+    margin-bottom: 5px;
+	clear:both;}
+.list-title{
+	color:#A31731;
+	height: 20px;
+	margin-left:15px;
+	padding: 15px 0 10px 0;}
+.list-title img{
+   margin-right:5px;}	
+.list-title h1{
+	float: left;
+	margin: 0px;
+	padding: 3px 0 0 5px;
+	font-size:14px;
+	font-weight:bold;}
+.list-content {
+	clear: both;
+	margin: 0 5px 0 15px;
+	color: #000000;}
+.list-content a{
+	color:#000000;
+	text-decoration:none;}
+.list-content a:hover{
+    color:#f5651f;}		
+	
+/*===================个人档案部分样式=======================*/	
+.mm-list-content{
+    text-align:center;}	
+.list-content hr {
+	margin: 5px 0px;
+	height: 1px;
+	border-top: 1px solid #97ACB6;
+	clear:both;}
+	
+/*===================导航统一列表样式=======================*/	
+.list-content ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;}
+.list-content li {
+	list-style: none;}
+	
+/*===================推荐日志部分样式=======================*/	
+.collect{
+   float:left;
+   width:50px;
+   margin:0 5px 5px 0;}
+.collect img{
+   width:48px;
+   height:48px;
+   border:1px solid #cccccc;}
+.collect span{
+   display:block;
+   width:48px;
+   height:20px;
+   cursor:hand;}
+   
+/*===================footer部分样式=======================*/
+
+#footer{
+    margin:0 auto;
+	width:993px;
+	background:url(../images/footer.jpg) no-repeat left top;
+	height:191px;}
+#mmfooter{
+    padding-top:70px;
+	height:71px;}	
+.logo{
+    float:left;
+	width:360px;
+	height:40px;}
+.logo img{
+    float:right;
+	margin-top:4px;}
+.contact{
+     float:left;
+	 color:#e7ebef;
+	 height:40px;
+	 padding-left:20px;}
+.contact a{
+     color:#e7ebef;
+	 font-size:14px;
+	 font-family:Arial, Helvetica, sans-serif;}
+.contact a:hover{
+    color:#f5651f;
+	font-size:14px;}	 
+#copyright{
+     clear:left;
+     margin:0 auto;
+     width:890px;
+	 color:#e7ebef;
+	 text-align:center;}	 	 			

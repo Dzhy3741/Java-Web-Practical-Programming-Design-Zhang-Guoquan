@@ -1,0 +1,44 @@
+/* CSS Document */
+#main {
+	background-image: url(../images/main_bg.jpg);}
+#menu {
+	background-image: url(../images/menu.jpg);}
+#footer {
+	background-image: url(../images/footer.jpg);}
+#lookdiary{
+    width:700px;
+	margin:0 auto;}
+h3{
+   font-size:14px;
+   font-weight:bold;
+   color:#f5651f;}
+h4{
+   display:inline;
+   font-size:12px;
+   font-weight:normal;
+   color:#f5651f;}
+.text{
+   height:18px;
+   width:200px;
+   border:#9ba4a8 1px solid;}
+.textarea{
+   width:600px;
+   border:#9ba4a8 1px solid;}         
+.button-submit{
+   width:40px;
+   height:18px;
+   margin-right:10px;
+   border:1px solid #999999;
+   background:#9ba4a8;
+   font-size:12px;
+   color:#ffffff;} 
+.help,#name,#email,#link,#remember,.commentcontent{
+   margin-bottom:5px;}
+#remember{
+   margin-left:56px;}  
+#remember span{
+   padding-bottom:20px;} 
+.commentcontent span{
+   display:block;
+   float:left;}              		
+
