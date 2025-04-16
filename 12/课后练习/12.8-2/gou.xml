@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!--按照byType注入则就与id没有关系，可以随便定义id ！！！但是不能出现多个此类的id-->
+    <bean id="orderitdfadafaem" class="org.jia.OrderItem">
+        <property name="orderdec" value="item00001"></property>
+    </bean>
+    <bean id="order" class="org.jia.Order" <span style="color:#ff0000;">autowire="byType"</span>>
+        <property name="orderNum" value="order000007"></property>
+    </bean>
+</beans>

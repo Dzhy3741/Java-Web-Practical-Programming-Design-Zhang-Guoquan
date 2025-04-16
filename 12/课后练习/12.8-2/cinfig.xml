@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">  
+<beans>  
+    <bean id="orderItem" class="org.jia.OrderItem">  
+        <property name="orderdec" value="item00001"></property>  
+    </bean>  
+    <bean id="order" class="org.jia.Order" autowire="constructor">  
+        <property name="orderNum" value="order000007"></property>  
+    </bean>  
+</beans>

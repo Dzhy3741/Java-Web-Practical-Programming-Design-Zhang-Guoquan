@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!--此时的id就必须与Order.java中所定义的OrderItem的对象名称一样了，不然就会找不到-->
+    <bean id="orderitem" class="org.jia.OrderItem">
+        <property name="orderdec" value="item00001"></property>
+    </bean>
+    <bean id="order" class="org.jia.Order"<span style="color:#ff0000;"> autowire="byName"</span>>
+        <property name="orderNum" value="order000007"></property>
+    </bean>
+</beans>
