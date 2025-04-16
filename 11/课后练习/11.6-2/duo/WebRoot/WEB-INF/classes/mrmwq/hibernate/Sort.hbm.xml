@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping
+   PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="mrmwq.hibernate.Sort" table="tb_sortconn">
+    <id name="id" column="id" type="int">
+      <generator class="increment"/>
+    </id>
+    <property name="name" column="name" type="string" not-null="true"/>
+    <many-to-one name="fatherSort" column="father_id" class="mrmwq.hibernate.Sort" lazy="false"/>
+    <set name="sonSorts" lazy="false">
+      <key column="father_id"/>
+      <one-to-many class="mrmwq.hibernate.Sort"/>
+    </set>
+  </class> 
+</hibernate-mapping>
+ 
